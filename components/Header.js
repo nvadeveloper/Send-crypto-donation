@@ -5,7 +5,7 @@ import Logo from "./Logo"
 
 const Header = () => {
     const [mounted, setMounted] = useState(false)
-    const { theme, setTheme } = useTheme()
+    const { systemTheme, theme, setTheme } = useTheme()
 
     useEffect(() => {
         setMounted(true)
